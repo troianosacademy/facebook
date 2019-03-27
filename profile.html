@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="container">
+            <div class="search-field">
+                <input type="text" class="search-input" placeholder="Pesquisar amigos e amigas">
+                <img src="assets/icons/search.svg" class="search-icon" />
+            </div><!-- search field-->
+            <div class="user-actions">
+                <a href="#" class="user-link">
+                    <img src="https://via.placeholder.com/50x50" class="user-img" alt="">
+                    <span>Keven</span>
+                </a>
+                <a href="#" class="user-link">
+                    Página inicial
+                </a>
+                <a href="#" class="user-link user-dropdown">
+                    <img src="assets/icons/arrow-down.svg" class="arrow" alt="">
+                </a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-item">Configurações</a>
+                    <a href="#" class="dropdown-item">Sair</a>
+                </div><!-- drodown -->
+            </div><!-- user actions -->
+        </div><!-- container -->
+    </div><!-- navbar -->
+    
+    <div class="container main">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-media">
+                        <div class="card-profile-cover" style="background-image: url('assets/images/ferias.jpg')"></div>
+                    </div><!-- card media-->
+                    <div class="card-footer">
+                        <a href="#" class="card-profile">
+                            <img src="assets/images/keven.jpg" class="card-profile-img" alt="">
+                            <span class="card-profile-overlay">
+                                <img src="assets/icons/camera.svg" class="icon-sm" alt="">
+                                <input type="file" name="photo">
+                            </span>
+                        </a>
+                        <div class="card-profile-nav">
+                            <a href="#" class="profile-nav first">Sobre</a>
+                            <a href="#" class="profile-nav">Amigos</a>
+                            <a href="#" class="profile-nav">Fotos</a>
+                        </div><!-- card profile nav-->
+                    </div><!-- card footer-->
+                </div><!-- card -->
+                <div class="row mt-5">
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-headline">Apresentação</h3>
+                                <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero labore ipsum, vitae recusandae commodi. </p>
+                                <li class="task">
+                                    <img src="assets/icons/job.svg" class="icon-sm" alt="">
+                                    <span class="task-item">CEO na empresa Troianos</span>
+                                </li>
+                                <li class="task">
+                                    <img src="assets/icons/job.svg" class="icon-sm" alt="">
+                                    <span class="task-item">Trabalhou como Lindo na empresa mundo</span>
+                                </li>
+                                <li class="task">
+                                    <img src="assets/icons/home.svg" class="icon-sm" alt="">
+                                    <span class="task-item">Mora em São Paulo</span>
+                                </li>
+                                <li class="task">
+                                        <img src="assets/icons/school.svg" class="icon-sm" alt="">
+                                        <span class="task-item">Estudou na FIAP</span>
+                                    </li>
+                                <li class="task">
+                                    <img src="assets/icons/love.svg" class="icon-sm" alt="">
+                                    <span class="task-item">Solteiro</span>
+                                </li>
+                                <h3 class="card-headline mt-5">Fotos</h3>
+                                <div class="card-media card-photos">
+                                    <img src="assets/images/coach.jpg" alt="">
+                                    <img src="assets/images/ferias.jpg" alt="">
+                                    <img src="assets/images/sexta.jpg" alt="">
+                                </div>
+                            </div><!-- card body-->
+                        </div><!-- card-->
+                    </div><!-- col md 5-->
+                    <div class="col-md-7">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="post">
+                                    <img src="https://via.placeholder.com/50x50" class="avatar" alt="">
+                                    <textarea name="post" class="post-field" placeholder="No que você está pensando, Keven?"></textarea>
+                                </div><!-- -->
+                            </div><!-- card header-->
+                            <div class="card-footer">
+                                <div class="input-file">
+                                    <div class="label">
+                                        <img src="assets/icons/photo.svg" class="label-icon">
+                                        <span class="label-text">Foto/Vídeo</span>
+                                    </div><!-- label -->
+                                    <input type="file" name="photo">
+                                </div><!-- input file-->
+                            </div><!-- card footer --> 
+                        </div><!-- card post-->
+                        
+                        <div class="card card-post">
+                            <div class="card-header">
+                                <img src="https://via.placeholder.com/50x50" class="avatar" alt="">
+                                <a href="#" class="post-link">Keven Jesus</a>
+                            </div><!-- card header-->
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quasi nisi voluptates iste enim adipisci perspiciatis, mollitia omnis veritatis ducimus repellendus exercitationem! Ducimus eligendi labore quas accusamus eos ea repudiandae?</p>
+                            </div><!-- card body-->
+                            <div class="card-media">
+                                <img src="assets/images/coach.jpg" alt="">
+                            </div>
+                            <div class="card-footer post-footer">
+                                <a href="#" class="post-footer-item">
+                                    <img src="assets/icons/like.svg" class="post-footer-icon" alt="">
+                                    <span>Curtir</span>
+                                </a>
+                                <a href="#" class="post-footer-item">
+                                    <img src="assets/icons/comment.svg" class="post-footer-icon" alt="">
+                                    <span>Comentar</span>
+                                </a>
+                            </div><!-- card footer-->
+                            <div class="card-post-comnent">
+                                <img src="https://via.placeholder.com/50x50" class="avatar avatar-sm" alt="">
+                                <textarea name="comment" class="post-field" rows="3" placeholder="Deixar um comentário"></textarea>
+                            </div><!-- card post comment -->
+                            <div class="card-comments">
+                                <div class="card-comment">
+                                    <div class="card-user">
+                                        <img src="https://via.placeholder.com/50x50" class="avatar avatar-md" alt="">
+                                    </div><!-- card user-->
+                                    <div class="card-comment-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus itaque quisquam tempora tempore voluptates aut assumenda quod similique esse necessitatibus culpa praesentium officia unde nostrum quia minima, id molestiae.</p>
+                                    </div><!-- card comment body-->
+                                </div><!-- card comment-->
+                                
+                                <div class="card-comment">
+                                    <div class="card-user">
+                                        <img src="https://via.placeholder.com/50x50" class="avatar avatar-md" alt="">
+                                    </div><!-- card user-->
+                                    <div class="card-comment-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus itaque quisquam tempora tempore voluptates aut assumenda quod similique esse necessitatibus culpa praesentium officia unde nostrum quia minima, id molestiae.</p>
+                                    </div><!-- card comment body-->
+                                </div><!-- card comment-->
+                                
+                            </div><!-- card comments-->
+                        </div><!-- card -->
+                    </div><!-- card md 7-->
+                </div><!-- row-->
+            </div><!-- col md 8-->
+        </div><!-- row -->
+    </div><!-- container -->
+    
+    <script src="assets/js/app.js"></script>
+    
+</body>
+</html>
